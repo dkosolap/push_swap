@@ -6,7 +6,7 @@
 #    By: dkosolap <dkosolap@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/03/01 17:05:42 by dkosolap          #+#    #+#              #
-#    Updated: 2017/03/01 17:32:09 by dkosolap         ###   ########.fr        #
+#    Updated: 2017/03/02 17:20:20 by dkosolap         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ LIB = -L./libft -lft -L. -lftprintf
 
 FLAGS = -Wall -Wextra -Werror
 
-SRC = push_swap.c
+SRC = push_swap.c stack_create.c psw_atoi.c
 
 BINS = $(SRC:.c=.o)
 
